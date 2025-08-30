@@ -21,12 +21,6 @@ The app allows users to **book seats** at a bukka by selecting the number of sea
 
 ---
 
-## 📦 Installation & Setup  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/bukka-app.git
-=======
 # Bukka-App
 A ReactJS + TailwindCSS web app that lets users book seats at a Nigerian bukka (informal eatery) while selecting their preferred food.
 >>>>>>> bc2eacc4ba2e784d7f216f5ab984bc6f6f21ac07
