@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Header from "./assets/Header";
 import HeroSection from "./assets/HeroSection";
 import FeaturedDishes from "./assets/FeaturedDishes";
@@ -12,15 +10,24 @@ import Footer from "./assets/Footer";
 
 const App = () => {
   return (
-    <div className="bg-gray-50 font-[Poppins] scroll-smooth">
+    /* Changed bg-gray-50 to a warmer cream #FAF7F2 to match the Buka vibe */
+    <div className="bg-[#FAF7F2] font-[inter] scroll-smooth selection:bg-amber-200 selection:text-amber-900">
       <Header />
-      <HeroSection />
-      <FeaturedDishes />
-      <AboutSection />
-      <MenuSection />
-      <Testimonials />
-      <ReservationForm />
-      <ContactSection />
+      
+      <main>
+        <HeroSection />
+        
+        {/* We add a little space or "scrolling margin" for the fixed header */}
+        <div className="space-y-0"> 
+          <FeaturedDishes />
+          <AboutSection />
+          <MenuSection />
+          <Testimonials />
+          <ReservationForm />
+          <ContactSection />
+        </div>
+      </main>
+
       <Footer />
     </div>
   );
